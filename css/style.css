@@ -1,0 +1,123 @@
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, a{
+  font-family: "メイリオ", "游ゴシック", sans-serif;
+  color: #17184B;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.title{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* header */
+header{
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  height: 65px;
+  line-height: 65px;
+}
+
+.menu{
+  margin: 0 0 0 auto;
+}
+
+.menu ul{
+  display: flex;
+}
+
+.menu ul li a{
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+/* top */
+.top-wrapper{
+  background: url(../img/main-vsual-nontitle.png);
+  background-size: cover;
+  height: 450px;
+  text-align: center;
+}
+
+.top-text{
+  padding-top: 200px;
+}
+
+.top-text h4{
+  margin-top: 50px;
+}
+
+/* about */
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-items img, .about-items h4{
+  width: 47%;
+}
+
+/* course */
+.courses{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.course{
+  flex-basis: 31%;
+}
+
+.course img{
+  width: 100%;
+}
+
+/* contact */
+.contact-wrapper{
+  text-align: center;
+}
+
+.contact-wrapper input{
+  height: 40px;
+  width: 500px;
+  border: 2px solid lightgray;
+  border-radius: 40px;
+  margin-bottom: 50px;
+}
+
+.start-btn{
+  padding: 15px 50px;
+  color: #fff;
+  background-color: #E66B58;
+}
+
+/* footer */
+footer{
+  margin-top: 100px;
+  border-top: 1px solid lightgray;
+  padding: 20px;
+}
+
+small{
+  font-size: 13px;
+  color: gray;
+  float: right;
+}
